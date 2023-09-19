@@ -1,6 +1,6 @@
 ---
 title: Curing my Youtube Addiction
-date: '2023-08-01'
+date: '2023-09-19'
 tags: ['digital-health']
 draft: false
 ---
