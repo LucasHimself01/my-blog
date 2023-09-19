@@ -68,16 +68,7 @@ export const TagSEO = ({ title, description }) => {
   )
 }
 
-export const BlogSEO = ({
-  authorDetails,
-  title,
-  summary,
-  date,
-  lastmod,
-  url,
-  images = [],
-  canonicalUrl,
-}) => {
+export const BlogSEO = ({ title, summary, date, lastmod, url, images = [], canonicalUrl }) => {
   const publishedAt = new Date(date).toISOString()
   const modifiedAt = new Date(lastmod || date).toISOString()
   let imagesArr =
@@ -94,21 +85,6 @@ export const BlogSEO = ({
     }
   })
 
-  let authorList
-  if (authorDetails) {
-    authorList = authorDetails.map((author) => {
-      return {
-        '@type': 'Person',
-        name: author.name,
-      }
-    })
-  } else {
-    authorList = {
-      '@type': 'Person',
-      name: siteMetadata.author,
-    }
-  }
-
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -120,10 +96,9 @@ export const BlogSEO = ({
     image: featuredImages,
     datePublished: publishedAt,
     dateModified: modifiedAt,
-    author: authorList,
     publisher: {
       '@type': 'Organization',
-      name: siteMetadata.author,
+      name: 'The Digital Sovereign',
       logo: {
         '@type': 'ImageObject',
         url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`,

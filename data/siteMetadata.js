@@ -1,6 +1,5 @@
 const siteMetadata = {
   title: 'The Digital Sovereign',
-  author: 'Lucas Prado',
   headerTitle: 'The Digital Sovereign',
   description: 'Blog from Lucas Prado',
   theme: 'dark', // system, dark or light
