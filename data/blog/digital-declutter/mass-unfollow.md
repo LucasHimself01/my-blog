@@ -60,7 +60,6 @@ and can lead to unhealthy standards and comparison.
 You probably follow some influencers or content creators that you think are beneficial to you since they teach you a lot of positive things that genuinely improve your life.
 
 Still, I would suggest to you to think about whether you want to let every piece of their content/life/work into your brain at all times.
-g.
 
 You can still search for information on the internet and you can still search for content from the very creators you have unsubscribed,
 but you are now doing it on your own terms. With this strategy you are the one who decides when to be shown a piece of content or information,

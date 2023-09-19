@@ -20,6 +20,11 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
+      <div className="text-m p-8 italic">
+        Digital Sovereignty is an individual's ability to own and have control over its digital
+        destiny.
+      </div>
+
       <div className="h-6 text-xl font-semibold">Latest Articles</div>
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
